@@ -1,6 +1,6 @@
 // API client layer for Campus Pulse
 
-export const API_BASE_URL = '/api/v1';
+export const API_BASE_URL = 'https://campus-pulse-api-jyn9.onrender.com/api/v1';
 
 /**
  * Helper to perform HTTP fetch and handle error responses consistently.
