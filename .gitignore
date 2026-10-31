@@ -1,0 +1,51 @@
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+*.env
+*.key
+*.pem
+*.cert
+credentials.json
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python virtual environments & bytecode
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Build artifacts & distribution
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# IDE & Editor caches
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Caches & temporary files
+.cache/
+.pytest_cache/
+*.tmp
+*.log
+
+# Temporary development instructions (per project instructions)
+DOCS/
